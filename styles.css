@@ -1,0 +1,97 @@
+body {
+    background-color: #df685c;
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.anaBaslik {
+    font-size: 64px;
+    line-height: 60px;
+    font-family: 'Bungee Shade', cursive;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+
+.altBaslik {
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Bungee', cursive;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
+.saatClass {
+    font-size: 42px;
+    line-height: 24px;
+    font-family: 'Bungee', cursive;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 48px;
+    font-family: 'Bungee', cursive;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.selectButton {
+    padding: 5px 0;
+}
+
+
+.spacer {
+    height: 15px;
+}
+
+#wakeUp, #sleep, #lunch {
+    padding: 5px;
+    font-size: 16px;
+    text-align-last:center;
+}
+
+
+
+.select-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.select-list h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    font-family: 'Bungee', cursive;
+    background-color: #222;
+    width: 300px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.img-container {
+    text-align: center;
+}
+
+.img-container img {
+    width: 350px;
+    height: auto;
+}
